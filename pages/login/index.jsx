@@ -11,7 +11,7 @@ export default function Login() {
     React.useEffect(() => {
         window.ssn = JSON.parse(window.localStorage.getItem("session"))
 
-        let host = "https://api.uploadly.dev"
+        let host = "http://localhost:1337"
         if (window.ssn) {
             axios.get(host + "/api/account/" + window.ssn.accountId, {
                 headers: {
@@ -19,7 +19,7 @@ export default function Login() {
                 }
             }).then((res) => {
                 if (res.status !== 404) {
-                    router.push("/")
+                    router.push("/dashboard")
                 }
                 else {
                     setShow(true)
@@ -35,12 +35,12 @@ export default function Login() {
         setLoader(true)
         let email = document.querySelector("input[name='email']").value
         let password = document.querySelector("input[name='password']").value
-        let host = "https://api.uploadly.dev"
+        let host = "http://localhost:1337"
 
         axios.post(host + "/api/login", { email, password }).then((res) => {
             console.log(res.data)
             window.localStorage.setItem("session", JSON.stringify(res.data.session))
-            router.push("/")
+            router.push("/dashboard")
         }).catch(err => {
 
             console.log(err)

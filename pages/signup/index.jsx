@@ -5,17 +5,18 @@ import Header from "../../components/header"
 import axios from "axios"
 // import operations from "../../func"
 export default function Signup() {
-    let host = "https://api.uploadly.dev"
+    let host = "http://localhost:1337"
     const [loader, setLoader] = React.useState(false)
     const [match, setMatch] = React.useState("initial")
     const [empty, setEmpty] = React.useState("initial")
     const [email, setEmail] = React.useState("initial")
     const [err, setError] = React.useState("")
     const [password, setPassword] = React.useState("initial")
+    let [show, setShow] = React.useState(false)
     React.useEffect(() => {
         window.ssn = JSON.parse(window.localStorage.getItem("session"))
 
-        let host = "https://api.uploadly.dev"
+        let host = "http://localhost:1337"
         if (window.ssn) {
             axios.get(host + "/api/account/" + window.ssn.accountId, {
                 headers: {
@@ -23,14 +24,14 @@ export default function Signup() {
                 }
             }).then((res) => {
                 if (res.status !== 404) {
-                    router.push("/")
+                    router.push("/dashboard")
                 }
                 else {
-
+                    setShow(true)
                 }
             })
         }
-
+        setShow(true)
     }, [])
     function signUp() {
         let email = document.querySelector("input[name='email']").value
@@ -68,7 +69,7 @@ export default function Signup() {
         axios.post(host + "/api/create_account", { email, password }).then((res) => {
             console.log(res.data)
             window.localStorage.setItem("session", JSON.stringify(res.data.session))
-            window.location.href = "/"
+            router.push("/dashboard")
         }).catch(err => {
             setError(err.response.data.message)
             setLoader(false)
