@@ -1,8 +1,11 @@
+import Hero from "../components/hero";
+import Header from "../components/header";
 
-import Hero from "../components/hero"
-
-export default function Home() { 
+export default function Home() {
   return (
-    <Hero name="deoihfewdnws" />
-  )  
+    <>
+      <Header />
+      <Hero name="deoihfewdnws" />
+    </>
+  );
 }
