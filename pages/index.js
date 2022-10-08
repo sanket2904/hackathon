@@ -1,5 +1,6 @@
+import Hero from "../components/hero";
+import Header from "../components/header";
 
-import Hero from "../components/hero"
 import Hero2 from "../components/hero2"
 import Head from "next/head"
 import Script from "next/script"
@@ -11,6 +12,7 @@ export default function Home() {
     <>
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
         <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+        <Header/>
       <Head>
         <title>Home</title>
       </Head>
