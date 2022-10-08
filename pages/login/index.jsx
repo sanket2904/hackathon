@@ -67,11 +67,11 @@ export default function Login() {
                         </div>
                         <div className="flex flex-col mt-2 mb-2 gap-3">
                             <label htmlFor="user_email">Email</label>
-                            <input className={style.input} type="email" name="email" style={{ border: "1px solid #616161", backgroundColor: "#2b2b2b", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
+                            <input className={style.input} type="email" name="email" style={{ border: "1px solid #616161", backgroundColor: "#fefefe", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
                         </div>
                         <div className="flex flex-col mt-2 mb-2 gap-3">
                             <label htmlFor="password">Password</label>
-                            <input className={style.input} type="password" name="password" style={{ border: "1px solid #616161", backgroundColor: "#2b2b2b", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
+                            <input className={style.input} type="password" name="password" style={{ border: "1px solid #616161", backgroundColor: "#fefefe", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
                         </div>
                         <>
                             <p className="text-red-500 font-semibold pt-2 pb-2">{invalid}</p>
@@ -83,7 +83,7 @@ export default function Login() {
                         </p>
 
                         <div className="b">
-                            <button onClick={Login} className="mt-4 w-full font-semibold pt-2 pb-1 bg-white text-black rounded-md text-sm">Sign in</button>
+                            <button onClick={Login} className="mt-4 w-full font-semibold pt-2 pb-1 bg-black text-white rounded-md text-sm">Sign in</button>
 
                         </div>
                     </div>
