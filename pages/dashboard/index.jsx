@@ -2,10 +2,12 @@
 
 import AddMentor from "../../components/add-mentor";
 import AddAppointment from "../../components/add-appointment";
+import DashboardHeader from "../../components/dashboard-header";
 export default function DashBoard(props) {
 
     return (
         <>
+        <DashboardHeader/>
         <div className="flex">
             <div id="drawer-disable-body-scrolling" className=" z-40 h-screen p-4 overflow-y-auto bg-white w-80 dark:bg-gray-800 transition-transform left-0 top-0 " tabindex="-1" aria-labelledby="drawer-disable-body-scrolling-label" aria-hidden="true">
                 <h5 id="drawer-disable-body-scrolling-label" className="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Menu</h5>
