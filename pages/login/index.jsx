@@ -2,6 +2,7 @@ import style from "../../styles/signup.module.css";
 import { useRouter } from "next/router"
 import React from "react"
 import axios from "axios"
+import Header from "../../components/header";
 export default function Login() {
 
     let [show, setShow] = React.useState(false)
@@ -50,6 +51,8 @@ export default function Login() {
     }
     if (show && !loader) {
         return (
+            <>
+            <Header />
             <div className="flex pl-6 pr-6  w-full pt-5 sm:h-screen sm:items-center">
                 <div className="w-full sm:w-1/2 flex justify-center">
                     <div className="flex flex-col w-full max-w-sm ">
@@ -83,13 +86,14 @@ export default function Login() {
                         </p>
 
                         <div className="b">
-                            <button onClick={Login} className="mt-4 w-full font-semibold pt-2 pb-1 bg-black text-white rounded-md text-sm">Sign in</button>
+                            <button onClick={Login} className="mt-4 w-full font-semibold pt-2 pb-1 bg-blue-700 text-white rounded-md text-sm">Sign in</button>
 
                         </div>
                     </div>
                 </div>
 
             </div>
+            </>
         )
 
     }

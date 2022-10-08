@@ -14,7 +14,7 @@ export default function Hero(props) {
                     <p className=" text-lg p-2 text-gray-500 md:text-left">
                         {props.description}
                     </p>
-                    <button className="bg-black w-1/3 h-10 rounded font-semibold text-white m-2">
+                    <button className="bg-blue-700 w-1/3 h-10 rounded font-semibold text-white m-2">
                         Know More
                     </button>
                 </div>

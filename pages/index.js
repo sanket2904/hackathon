@@ -18,8 +18,8 @@ export default function Home() {
       </Head>
       
       <Hero imageLink="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" headerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio." />
-      <Hero2  />
-      <div className="flex justify-center h-screen w-full ">
+      <Hero2 imageLink={svg} headerText="Lorem ipsum dolor sit amet, consectetur" description="Built on top of the world’s most popular open source database and compatible with all major frameworks and languages." />
+      <div className="flex justify-center  w-full p-4 ">
         <Testamonials />
       </div>
      

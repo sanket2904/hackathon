@@ -1,6 +1,7 @@
 import style from "../../styles/signup.module.css"
 import { useRouter } from "next/router"
 import React from "react"
+import Header from "../../components/header"
 import axios from "axios"
 // import operations from "../../func"
 export default function Signup() {
@@ -88,6 +89,8 @@ export default function Signup() {
 
     if (!loader) {
         return (
+            <>
+            <Header />
             <div className="flex pl-6 pr-6  w-full pt-5 sm:h-screen sm:items-center">
                 <div className="w-full sm:w-1/2 flex justify-center">
                     <div className="flex flex-col w-full max-w-sm ">
@@ -130,12 +133,13 @@ export default function Signup() {
                         </p>
 
                         <div className="b">
-                            <button onClick={signUp} className="mt-4 w-full font-semibold pt-2 pb-1 bg-black text-white rounded-md text-sm">Sign up</button>
+                            <button onClick={signUp} className="mt-4 w-full font-semibold pt-2 pb-1 bg-blue-700 text-white rounded-md text-sm">Sign up</button>
                         </div>
                     </div>
                 </div>
 
             </div>
+            </>
         )
     }
     else {
