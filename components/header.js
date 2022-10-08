@@ -11,16 +11,16 @@ export default function Header(props) {
         </div>
 
         <div class="flex-grow"></div>
-        <div class="hidden sm:flex w-2/4 items-center">
+        <div class="flex w-2/4 items-center">
           <div class="flex-1 text-center text-2xl font-semibold text-indigo-500 cursor-pointer">
-            <a> Head 1</a>
+            <a> Home</a>
           </div>
           <div class="flex-1 text-center text-2xl font-semibold text-indigo-500 cursor-pointer">
-            <a> Head 2</a>
+            <a> Tracks</a>
           </div>
-          <div class="flex-1 text-center text-2xl font-semibold text-indigo-500 cursor-pointer">
-            <a> Head 3</a>
-          </div>
+          <div class="m-5 text-center">
+          
+        </div>
         </div>
       </div>
     </>
