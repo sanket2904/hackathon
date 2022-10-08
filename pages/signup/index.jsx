@@ -106,17 +106,17 @@ export default function Signup() {
 
                         <div className="flex flex-col mt-2 mb-2 gap-3">
                             <label htmlFor="user_email">Email</label>
-                            <input className={style.input} type="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" style={{ border: (empty != "empty") ? "1px solid #616161" : "1px solid red", backgroundColor: "#2b2b2b", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
+                            <input className={style.input} type="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" style={{ border: (empty != "empty") ? "1px solid #616161" : "1px solid red", backgroundColor: "#fefefe", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
                             {email == "error" && <p className="text-red-500 text-sm">Please enter a valid email</p>}
                         </div>
                         <div className="flex flex-col mt-2 mb-2 gap-3">
                             <label htmlFor="password">Password</label>
-                            <input className={style.input} type="password" name="password" style={{ border: (match != "unmatched") ? "1px solid #616161" : "1px solid red", backgroundColor: "#2b2b2b", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
+                            <input className={style.input} type="password" name="password" style={{ border: (match != "unmatched") ? "1px solid #616161" : "1px solid red", backgroundColor: "#fefefe", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
                             {password == "error" && <p className="text-red-500 text-sm">Password must be atleast 8 characters</p>}
                         </div>
                         <div className="flex flex-col mt-2 mb-2 gap-3">
                             <label htmlFor="password">Password confirmation</label>
-                            <input className={style.input} type="password" name="passwordConfirm" style={{ border: (match != "unmatched") ? "1px solid #616161" : "1px solid red", backgroundColor: "#2b2b2b", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
+                            <input className={style.input} type="password" name="passwordConfirm" style={{ border: (match != "unmatched") ? "1px solid #616161" : "1px solid red", backgroundColor: "#fefefe", height: "40px", borderRadius: "5px", paddingLeft: "10px" }} />
                             {
                                 !(match != "unmatched") && <p style={{ color: "red" }}>Passwords do not match</p>
                             }
@@ -130,7 +130,7 @@ export default function Signup() {
                         </p>
 
                         <div className="b">
-                            <button onClick={signUp} className="mt-4 w-full font-semibold pt-2 pb-1 bg-white text-black rounded-md text-sm">Sign up</button>
+                            <button onClick={signUp} className="mt-4 w-full font-semibold pt-2 pb-1 bg-black text-white rounded-md text-sm">Sign up</button>
                         </div>
                     </div>
                 </div>
