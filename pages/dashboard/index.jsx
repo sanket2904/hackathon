@@ -16,7 +16,7 @@ export default function DashBoard(props) {
             window.ssn = JSON.parse(window.localStorage.getItem("session"));
             try {
                
-                    axios.get("http://localhost:1337/api/account/" + window.ssn.accountId).then(res => {
+                    axios.get("https://hackathon.uploadly.dev/api/account/" + window.ssn.accountId).then(res => {
                         console.log(res);
                         if (res.status !== 200) {
                             delete window.localStorage.session;
@@ -37,7 +37,7 @@ export default function DashBoard(props) {
             }
             
         }
-        axios.get("http://localhost:1337/api/schedules/"+ window.ssn.accountId).then((res) => {
+        axios.get("https://hackathon.uploadly.dev/api/schedules/"+ window.ssn.accountId).then((res) => {
             setSchedules(res.data);
         }).catch((err) => {
             console.log(err);

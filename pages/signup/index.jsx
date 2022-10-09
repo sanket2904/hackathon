@@ -5,7 +5,7 @@ import Header from "../../components/header"
 import axios from "axios"
 // import operations from "../../func"
 export default function Signup() {
-    let host = "http://localhost:1337"
+    let host = "https://hackathon.uploadly.dev"
     const [loader, setLoader] = React.useState(false)
     const [match, setMatch] = React.useState("initial")
     const [empty, setEmpty] = React.useState("initial")
@@ -16,7 +16,7 @@ export default function Signup() {
     React.useEffect(() => {
         window.ssn = JSON.parse(window.localStorage.getItem("session"))
 
-        let host = "http://localhost:1337"
+        let host = "https://hackathon.uploadly.dev"
         if (window.ssn) {
             axios.get(host + "/api/account/" + window.ssn.accountId, {
                 headers: {

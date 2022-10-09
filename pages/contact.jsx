@@ -12,7 +12,7 @@ export default function Contact(params) {
         formreq.append("phone", document.getElementById("phone").value);
         formreq.append("message", document.getElementById("message").value);
         setShow(true)
-        axios.post("http://localhost:1337/api/contact", formreq).then((res) => {
+        axios.post("https://hackathon.uploadly.dev/api/contact", formreq).then((res) => {
             console.log(res);
         }).catch((err) => { 
             console.log(err);

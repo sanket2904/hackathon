@@ -22,7 +22,7 @@ export default function Appointments() {
             window.ssn = JSON.parse(localStorage.getItem("session"))
         }
 
-        axios.get("http://localhost:1337/api/appointments").then((res) => {
+        axios.get("https://hackathon.uploadly.dev/api/appointments").then((res) => {
             setAppointments(res.data)
         }).catch((err) => {
             console.log(err);
@@ -38,7 +38,7 @@ export default function Appointments() {
         formdata.append("timeSlot", document.getElementById("timings").value)
         formdata.append("duration", 30)
         formdata.append("user", window.ssn.accountId)
-        axios.post("http://localhost:1337/api/create_schedule", formdata).then((res) => {
+        axios.post("https://hackathon.uploadly.dev/api/create_schedule", formdata).then((res) => {
             console.log(res)
         }
         ).catch((err) => {

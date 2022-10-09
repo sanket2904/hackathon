@@ -11,7 +11,7 @@ export default function Login() {
     React.useEffect(() => {
         window.ssn = JSON.parse(window.localStorage.getItem("session"))
 
-        let host = "http://localhost:1337"
+        let host = "https://hackathon.uploadly.dev"
         if (window.ssn) {
             axios.get(host + "/api/account/" + window.ssn.accountId, {
                 headers: {
@@ -35,7 +35,7 @@ export default function Login() {
         setLoader(true)
         let email = document.querySelector("input[name='email']").value
         let password = document.querySelector("input[name='password']").value
-        let host = "http://localhost:1337"
+        let host = "https://hackathon.uploadly.dev"
 
         axios.post(host + "/api/login", { email, password }).then((res) => {
             console.log(res.data)
