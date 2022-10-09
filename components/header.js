@@ -27,7 +27,7 @@ export default function Header(props) {
                 <a onClick={() => router.push("/about")} href="#" className="block py-2 pr-4 pl-3   rounded md:bg-transparent  md:p-0 " aria-current="page">About</a>
               </li>
               <li>
-                <a onClick={() => router.push("/track")} href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Track</a>
+                <a onClick={() => router.push("/track")} href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Details</a>
               </li>
               <li>
                 <a onClick={() => router.push("/contact")} href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact Us</a>
