@@ -1,7 +1,7 @@
 
 
 import Image from "next/image"
-
+import Han from '../public/Han.PNG'
 export default function Testamonials(props) {
     return (
 
@@ -12,7 +12,7 @@ export default function Testamonials(props) {
                     <p className="my-4 font-light">I came into the meeting knowing nothing about Aerospace Engineering. After hearing about Mike’s 20+ years experience, I learned how the field had evolved over years and the trend that it is heading towards. Mike advised me on the next steps I could take given my background, and now I am inspired!</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
-                    <Image height={80} width={80} className="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+                    <Image height={80} width={80} className="w-9 h-9 rounded-full" src={Han} alt="profile picture" />
                         <div className="space-y-0.5 font-medium  text-left">
                             <div>Han Nguyen</div>
                             <div className="text-sm font-light text-gray-500 ">ASU student</div>
