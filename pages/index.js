@@ -25,7 +25,7 @@ export default function Home() {
 Meet experienced mentors and narrow the generational gap while receiving invaluable career advice through Generation Connection!
 " />
       <Hero2 imageLink={svg} headerText="Start connecting today to learn & share" description="Retirees and students, sign in now through our portal to connect across generations while learning & sharing about the professional world." />
-      <div className="flex justify-center  w-full p-4 ">
+      <div className="flex justify-center  w-full p-4 py-16 ">
         <Testamonials />
       </div>
      

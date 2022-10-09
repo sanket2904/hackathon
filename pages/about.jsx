@@ -89,7 +89,7 @@ For students: Students can book an appointment for free with a professional of t
             </div>
 
             <h1 className="text-3xl text-center pt-5">Mentor Profiles</h1>
-            <div className="w-full p-5 flex  items-center justify-center gap-5 flex-wrap">
+            <div className="w-full p-5 flex  items-center justify-center gap-5 flex-wrap py-16">
 
                 <div class="w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md ">
                     <div class="flex flex-col items-center p-5 ">
@@ -106,7 +106,7 @@ For students: Students can book an appointment for free with a professional of t
                             </div>
                     </div>
                 </div>
-                <div class="w-full max-w-sm bg-white rounded-lg border md:mt-0 border-gray-200 shadow-md ">
+                <div class="w-full max-w-sm bg-white rounded-lg border md:mt-0 border-gray-200 shadow-md   ">
                     <div class="flex flex-col items-center p-5 ">
                         <Image class="mb-3 w-24 h-24 rounded-full shadow-lg" height={80} width={80} src="https://cdn.uploadly.dev/634228a29666525789e0c1c9fred1.PNG" alt="Bonnie image" />
                         <h5 class="mb-1 text-xl font-medium text-gray-900 ">Fred</h5>
