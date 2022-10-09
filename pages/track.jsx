@@ -21,6 +21,38 @@ export default function Trackk() {
                 </div>
             </div>
             <Hero2 headerText="Start a Conversation" description="Get in contact with an experienced senior in industry today!" imageLink={connection} />
+            <div style={{height:"50vh"}} className="flex justify-center p-5 items-center ">
+
+                <ol className="relative border-l border-gray-200 ">
+                    <li className="mb-10 ml-6">
+                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white ">
+                            <svg aria-hidden="true" className="w-3 h-3 text-blue-600 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                        </span>
+                        <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 ">Sign up for the Account</h3>
+                       
+                        <p className="mb-4 text-base font-normal text-gray-500 ">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce &amp; Marketing pages.</p>
+                        
+                    </li>
+                    <li className="mb-10 ml-6">
+                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white 
+                        ">
+                            <svg aria-hidden="true" className="w-3 h-3 text-blue-600 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                        </span>
+                        <h3 className="mb-1 text-lg font-semibold text-gray-900 " >Schedule an appointment with senior mentor</h3>
+                        
+                        <p className="text-base font-normal text-gray-500 ">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                    </li>
+                    <li className="ml-6">
+                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white ">
+                            <svg aria-hidden="true" className="w-3 h-3 text-blue-600 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                        </span>
+                        <h3 className="mb-1 text-lg font-semibold text-gray-900 ">Attend the appointment</h3>
+                       
+                        <p className="text-base font-normal text-gray-500 ">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                    </li>
+                </ol>
+
+            </div>
             <Hero headerText="Know someone? Sign them up." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit." imageLink={phone} />
             <div className="testemonicals flex justify-center w-full flex-col items-center">
                 <h1 className="text-3xl mt-4 mb-4">

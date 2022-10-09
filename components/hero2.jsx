@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function Hero2(props) {
     return (
         
-            <div className="hero2 w-screen h-screen flex flex-wrap flex-col items-center md:justify-evenly md:flex-row ">
+            <div className="hero2 w-screen h-screen flex flex-wrap flex-col items-center md:justify-evenly md:flex-row bg-slate-300">
                 <div className="photo md:w-1/2 flex md:justify-center p-5 md:p-12">
                     <Image src={props.imageLink} alt="image" width={500} height={500} />
                 </div>

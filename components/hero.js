@@ -4,8 +4,8 @@ export default function Hero(props) {
     return (
         <>
             <div className="bg-white h-screen w-screen flex-wrap flex text-black md:justify-evenly md:flex-row-reverse items-center  ">
-                <div className="photo p-4">
-                    <Image src={props.imageLink} alt="image" width={500} height={500} />
+                <div className="photo p-4 z-10">
+                    <Image src={props.imageLink} alt="image" width={600} height={600} />
                 </div>
                 <div className="text p-3 text-center max-w-lg md:justify-start md:flex flex-wrap ">
                     <h1 className=" text-3xl p-2 font-semibold md:text-left">
