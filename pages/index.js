@@ -20,10 +20,7 @@ export default function Home() {
         <title>Home</title>
       </Head>
       
-      <Hero imageLink="https://cdn.uploadly.dev/63421e459666525789e0c179Aboutsection.png" headerText="GENERATION CONNECTION FOR YOUR CAREER" description="Is finding your way into the professional world too overwhelming? What if there are friends with lifelong experiences in industries here to provide you with one-on-one guidance?
-
-Meet experienced mentors and narrow the generational gap while receiving invaluable career advice through Generation Connection!
-" />
+      <Hero imageLink="https://cdn.uploadly.dev/63422af09666525789e0c1faIMG_0595.PNG" headerText="Lorem ipsum dolor sit amet, consectetur adipisicing elit" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio." />
       <Hero2 imageLink={svg} headerText="Lorem ipsum dolor sit amet, consectetur" description="Built on top of the world’s most popular open source database and compatible with all major frameworks and languages." />
       <div className="flex justify-center  w-full p-4 ">
         <Testamonials />

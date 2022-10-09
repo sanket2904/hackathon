@@ -22,8 +22,8 @@ export default function Trackk() {
                 </div>
             </div>
             <Hero2 headerText="Start a Conversation" description="Get in contact with an experienced senior in industry today!" imageLink={connection} />
-            <div style={{height:"50vh"}} className="flex justify-center p-5 items-center ">
-
+            <div  style={{minHeight:"50vh"}} className="flex justify-center p-5 items-center ">
+                
                 <ol className="relative border-l border-gray-200 ">
                     <li className="mb-10 ml-6">
                         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white ">

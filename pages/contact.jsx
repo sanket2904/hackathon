@@ -1,6 +1,8 @@
 import Header from "../components/header"
 import axios from "axios";
 import React from "react";
+import contact from "../public/contactus.svg"
+import Image from "next/image";
 export default function Contact(params) {
     const [show,setShow] = React.useState(false)
     const sendContact = ( ) => {
@@ -12,7 +14,7 @@ export default function Contact(params) {
         setShow(true)
         axios.post("http://localhost:1337/api/contact", formreq).then((res) => {
             console.log(res);
-        }).catch((err) => {
+        }).catch((err) => { 
             console.log(err);
         }
         )
@@ -55,8 +57,8 @@ export default function Contact(params) {
                     </div>
 
                 </div>
-                <div className="w-1/2">
-
+                <div className="w-1/2 hidden md:block">
+                    <Image src={contact} width={500} height={500} alt="image" />
                 </div>
             </div>
         </>

@@ -9,7 +9,7 @@ export default function DashboardHeader(props) {
     <>
 
 
-      <nav class="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+      <nav class="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 w-full">
         <div class="container flex flex-wrap justify-end items-center mx-auto">
          
           
