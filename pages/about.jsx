@@ -24,12 +24,13 @@ export default function About() {
                     <p className="text-lg sm:px-14 text-left">
                     Then, the question we want to solve at Hacks for Humanity 2022 is, “How do we facilitate the formation of this collective experience? How do we create these cross-generational connections?”
                     </p>
+                    
             </div>
             <div className="cardssection p-5 w-screen flex flex-wrap justify-center items-center md:gap-8">
 
                 <a href="#" className="block md:w-1/2  md:max-w-xl p-6 max-w-sm bg-white rounded-lg border max-h-56 mt-3 mb-3 border-gray-200 shadow-md hover:bg-gray-100 ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">What does Generation Connection do?</h5>
-                    <p className="font-normal text-xs sm:text-base text-gray-700 dark:text-gray-400">Generation Connection is a platform that connects retired experienced workers and college students through one-on-one advising meetings.
+                    <p className="font-normal text-xs md:text-base text-gray-700 dark:text-gray-400">Generation Connection is a platform that connects retired experienced workers and college students through one-on-one advising meetings.
 While college students struggle to explore the vast and oftentimes confusing professional world, retirees have first-hand experiences that students can learn from. 
 </p>
                 </a>
@@ -37,7 +38,7 @@ While college students struggle to explore the vast and oftentimes confusing pro
                 <a href="#" className="block md:w-1/2 md:max-w-xl p-6 max-w-sm bg-white rounded-lg border  max-h-56 mt-3 mb-3 border-gray-200 shadow-md hover:bg-gray-100 ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">How does Generation Connection work?
 </h5>
-                    <p className="font-normal text-xs sm:text-base text-gray-700 dark:text-gray-400">For retirees: We welcome individual sign-ups as well as recommendations from companies and universities’ professors. Please sign up here to proceed.
+                    <p className="font-normal text-xs md:text-base text-gray-700 dark:text-gray-400">For retirees: We welcome individual sign-ups as well as recommendations from companies and universities’ professors. Please sign up here to proceed.
 For students: Students can book an appointment for free with a professional of their choice by signing up.
 </p>
                 </a>
@@ -106,15 +107,10 @@ For students: Students can book an appointment for free with a professional of t
                     </div>
                 </div>
                 <div class="w-full max-w-sm bg-white rounded-lg border md:mt-0 border-gray-200 shadow-md ">
-                    <div class="flex justify-end px-4 pt-4">
-
-
-
-                    </div>
                     <div class="flex flex-col items-center p-5 ">
                         <Image class="mb-3 w-24 h-24 rounded-full shadow-lg" height={80} width={80} src="https://cdn.uploadly.dev/634228a29666525789e0c1c9fred1.PNG" alt="Bonnie image" />
                         <h5 class="mb-1 text-xl font-medium text-gray-900 ">Fred</h5>
-                        <div class="flex mt-4 space-x-3 md:mt-6 text-center">
+                        <div class="flex mt-2 space-x-3 md:mt-2 text-center">
                             <div className="description">
                             <ul className="list-disc">
                                         <li>Retired police officer</li>

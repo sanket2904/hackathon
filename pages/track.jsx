@@ -14,10 +14,10 @@ export default function Trackk() {
             <div className="w-screen h-screen flex flex-wrap justify-center items-center p-5">
                 <div className="top text-center">
                     <h1 className=" text-3xl  md:text-4xl lg:text-5xl max-w-2xl"> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Start connecting today to learn & share
                     </h1>
                     <p className="max-w-2xl  text-gray-400 mt-3 md:text-lg ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Retirees and students, sign in now through our portal to connect across generations while learning & sharing about the professional world.
                     </p>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function Trackk() {
                         </span>
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 ">Sign up for the Account</h3>
                        
-                        <p className="mb-4 text-base font-normal text-gray-500 ">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce &amp; Marketing pages.</p>
+                        <p className="mb-4 text-base font-normal text-gray-500 ">Get access to profiles across various disciplines and book an appointment.</p>
                         
                     </li>
                     <li className="mb-10 ml-6">
@@ -41,7 +41,7 @@ export default function Trackk() {
                         </span>
                         <h3 className="mb-1 text-lg font-semibold text-gray-900 " >Schedule an appointment with senior mentor</h3>
                         
-                        <p className="text-base font-normal text-gray-500 ">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                        <p className="text-base font-normal text-gray-500 ">Simple! Students choose a profile that matches their interests to book an appointment. Each of our retirees has their preferred communication methods: virtual, phone, or in-person.</p>
                     </li>
                     <li className="ml-6">
                         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white ">
@@ -49,13 +49,14 @@ export default function Trackk() {
                         </span>
                         <h3 className="mb-1 text-lg font-semibold text-gray-900 ">Attend the appointment</h3>
                        
-                        <p className="text-base font-normal text-gray-500 ">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                        <p className="text-base font-normal text-gray-500 ">Get ready to learn from one another and form those generational connections!</p>
                     </li>
                 </ol>
 
             </div>
-            <Hero headerText="Know someone? Sign them up." description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit." imageLink={phone} />
-            <div className="testemonicals flex justify-center w-full flex-col items-center">
+            <Hero headerText="Want to be a mentor or know someone who does? Sign up." description="There is so much untapped knowledge and experience within each retiree. Let’s create a space for retirees to share, for students to learn, and for generations to connect!
+" imageLink={phone} />
+            <div className="testemonicals flex justify-center w-full flex-col items-center pt-8">
                 <h1 className="text-3xl mt-4 mb-4">
                     Testemonials
                 </h1>
