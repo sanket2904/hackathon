@@ -13,14 +13,14 @@ import fav from '../public/favicon.ico'
 export default function Home() { 
   return (
     <>
-        
-        <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
-        <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
-        <Header/>
       <Head>
         <title>Home</title>
         <link rel="shortcut icon" type="image/ico" href={fav} />
-      </Head>
+      </Head>  
+        <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+        <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+        <Header/>
+      
       
       <Hero imageLink="https://cdn.uploadly.dev/63422af09666525789e0c1faIMG_0595.PNG" headerText="GENERATION CONNECTION FOR YOUR CAREER" description="Is finding your way into the professional world too overwhelming? What if there are friends with lifelong experiences in industries here to provide you with one-on-one guidance?
 
