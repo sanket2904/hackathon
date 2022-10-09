@@ -10,7 +10,7 @@ export default function About() {
                
                 <div className=" w-full p-5 flex justify-center  flex-col gap-4   ">
                     <h1 className="text-xl sm:text-3xl font-bold text-center">
-                        We help to shrink the generaring gap. <span className="text-blue-500">Together</span>
+                        We help to shrink the generation gap. <span className="text-blue-500">Together</span>
                     </h1>
                     
                 </div> 
