@@ -15,7 +15,6 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
-        <link rel="shortcut icon" type="image/ico" href={fav} />
       </Head>  
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
         <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
