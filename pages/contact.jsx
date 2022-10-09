@@ -14,7 +14,7 @@ export default function Contact(params) {
         setShow(true)
         axios.post("http://localhost:1337/api/contact", formreq).then((res) => {
             console.log(res);
-        }).catch((err) => {
+        }).catch((err) => { 
             console.log(err);
         }
         )
