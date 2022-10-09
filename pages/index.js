@@ -9,6 +9,7 @@ import style from "../styles/Home.module.css"
 import Hero3 from "../components/hero3"
 import blob from "../public/blob.svg"
 import Testamonials from "../components/testamonials"
+import fav from '../public/favicon.ico'
 export default function Home() { 
   return (
     <>
@@ -18,6 +19,7 @@ export default function Home() {
         <Header/>
       <Head>
         <title>Home</title>
+        <link rel="shortcut icon" href={fav} />
       </Head>
       
       <Hero imageLink="https://cdn.uploadly.dev/63422af09666525789e0c1faIMG_0595.PNG" headerText="GENERATION CONNECTION FOR YOUR CAREER" description="Is finding your way into the professional world too overwhelming? What if there are friends with lifelong experiences in industries here to provide you with one-on-one guidance?
