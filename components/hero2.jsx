@@ -1,5 +1,9 @@
 import Image from "next/image"
+import { useRouter } from "next/router";
+
 export default function Hero2(props) {
+  const router = useRouter();
+
     return (
         
             <div className="hero2 w-screen h-screen flex flex-wrap flex-col items-center md:justify-evenly md:flex-row bg-slate-300">
@@ -10,10 +14,10 @@ export default function Hero2(props) {
                     <h1 className="text-3xl max-w-lg">
                         {props.headerText}
                     </h1>
-                    <p className="text-md text-gray-400 max-w-lg" >
+                    <p className="text-md text-gray-600 max-w-lg" >
                         {props.description}
                     </p>
-                    <button style={{ minWidth: "125px", maxWidth: "200px" }} className="bg-blue-700 w-1/2 h-10 rounded font-semibold min-w-min flex justify-center items-center text-white mt-2 pr-3 pl-3 box-border ">
+                    <button onClick={() => router.push("/track")} style={{ minWidth: "125px", maxWidth: "200px" }} className="bg-blue-700 w-1/2 h-10 rounded font-semibold min-w-min flex justify-center items-center text-white mt-2 pr-3 pl-3 box-border ">
                         Know More <ion-icon name="chevron-forward-outline"></ion-icon>
                     </button>
 
